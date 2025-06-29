@@ -135,6 +135,7 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Приложения
 INSTALLED_APPS = [
+    'jazzmin',
     'users',
     'rest_framework',  
     'recipes',         
